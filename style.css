@@ -1,0 +1,90 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.card{
+    background: hsl(213, 19%, 18%);
+    width: 370px;
+    border-radius: 16px;
+    padding: 30px;
+    height: 370px;
+}
+
+.image-icon{
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    padding: 11px 12px;
+}
+
+.heading{
+    color: hsl(0, 0%, 100%);
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.para{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.button-row{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.round-button{
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-weight: lighter;
+    width: 40px;
+    height: 40px;
+    padding: 9px 17px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.round-button:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.round-button:active{
+    background-color: hsl(217, 12%, 63%);
+}
+
+.button-triple{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    width: 100vh;
+    height: 40px;
+    padding: 9px 130px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.button-triple:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
